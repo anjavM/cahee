@@ -1,0 +1,38 @@
+footer {
+    background-color: #262626;
+    color: #b9b9b9;
+    z-index: -2;
+    p {
+        display: inline-block;
+        line-height: 70px;
+        @media screen and (max-width: 499px) {
+            line-height: 30px;
+        }
+    }
+    .flex-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media screen and (max-width: 499px) {
+            flex-direction: column;
+        }
+    }
+    .footer-logo {
+        font-family: 'Pacifico', Arial, sans-serif;
+        font-size: 25px;
+        @media screen and (max-width: 599px) {
+            font-size: 25px;
+        }
+    }
+    .copyright, .made {
+        font-size: 17px;
+        @media screen and (max-width: 599px) {
+            font-size: 14px;
+        }
+    }
+    .made-withlove {
+        color: #e22a51;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,73 @@
+#subscribe {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: url('../../assets/subscribe.png') center / cover no-repeat;
+  padding: 100px 0 120px 0;
+    @media screen and (max-width: 580px) {
+        background-size: contain;
+        height: 30vh;
+        padding: 180px 0 180px 0;
+    }
+    .subscribe-h1 {
+        font-size: 40px;
+        font-weight: 700;
+        @media screen and (max-width: 999px) {
+            font-size: 30px;
+        }
+    }
+    
+    .subscribe-p {
+        font-size: 17px;
+        width: 530px;
+        z-index: 2;
+         @media screen and (max-width: 999px) {
+            font-size: 12px;
+            width: 80%
+        }
+    }
+    
+    .subscribe-btn {
+        background-color: #96b92c;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        border: none;
+        width: 150px;
+        position: relative;
+        top: 2px;
+        left: 30px;
+        font-size: 20px;
+        &:focus {
+            outline: none;
+        }
+        @media screen and (max-width: 999px) {
+            max-width: 30vw;
+            font-size: 12px;
+            left: 0;
+            top: -1px;
+            padding: 14px;
+            margin-top: 5px;
+        }
+    }
+    
+    .subscribe-input {
+        width: 550px;
+        outline: none;
+        padding: 17px;
+        @media screen and (max-width: 999px) {
+            max-width: 60vw;
+            padding: 13px;
+        }
+    }
+    
+    .subscribe-img {
+        z-index: -100;
+        position: relative;
+    }
+
+    
+}
+

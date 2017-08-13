@@ -1,0 +1,83 @@
+#blog {
+    background-color: #b07cf7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .blog-h1 {
+        font-weight: 600;
+        font-size: 60px;
+    }
+    .blog-p {
+        width: 60%;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .blog-posts {
+        padding: 50px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    .blog-singlepost {
+        padding: 10px;
+        height: 300px;
+        width: 360px;
+        margin: 0 auto;
+        @media screen and (max-width: 999px) {
+            margin-bottom: 10px;
+            height: 280px;
+            width: 280px;
+        }
+        @media screen and (max-width: 350px) {
+            height: 210px;
+            width: 210px;
+        }
+    }
+    .singlepost-date {
+        width: 23%;
+        height: 23%;
+        font-weight: 900;
+        padding: 1%;
+        background-color: rgba(50,50,50,0.64);
+        border-radius: 5px;
+        font-size: 2rem;
+        line-height: 26px;
+        @media screen and (max-width: 350px) {
+                font-size: 1.5rem;
+                line-height: 1.7rem;
+            }
+        }
+    }
+        .blog-btn {
+        background-color: #f72b3b;
+        color: white;
+        margin: 0 auto;
+        border: none;
+        border: none;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-size: 19px;
+            &:focus {
+                outline: none;
+            }
+    }
+    .singlepost-title, .singlepost-author {
+        position: relative;
+        top: 130px;
+        text-align: left;
+        @media screen and (max-width: 350px) {
+            top: 40px;
+        }
+        @media screen and (min-width: 759px) and (max-width: 992px) {
+            top: 100px;
+        }
+    }
+    .singlepost-title {
+        font-weight: 600;
+    }
+}

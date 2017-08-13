@@ -1,0 +1,27 @@
+#gallery {
+    background-color: #ffe92f;
+    padding-bottom: 30px;
+}
+
+.gallery-text {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .gallery-p {
+        text-align: center;
+        width: 60%;
+        line-height: 25px;
+    }
+    .gallery-h1 {
+        font-weight: 600;
+        font-size: 60px;
+    }
+}
+
+.photos {
+    img {
+        margin-bottom: 28px;
+    }
+}

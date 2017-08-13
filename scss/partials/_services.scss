@@ -1,0 +1,128 @@
+ #services {
+    background-color: #70bfff;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    .services-img {
+        z-index: 1;
+    }
+    .services-h1 {
+        z-index: 2;
+        position: relative;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.left {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    .service-features {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 600;
+        position: relative;
+        align-items: center;
+        background-color: white;
+        box-shadow: 6px 3px 9px 0px rgba(156, 156, 156, 0.82);
+        margin-bottom: 16px;
+        &:hover {
+          box-shadow: 10px 10px 0px 0px rgba(16,130,130,1);
+        }
+        p {
+            margin: 0 auto;
+        }
+         img {
+            width: 35px;
+            padding-left: 10px;
+            border-left: 1px solid gray;
+            margin: 10px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .services-h1 {
+        position: relative;
+        font-size: 70px;
+        top: 160px;
+    }
+    .services-img {
+        position: relative;
+        top: -150px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .right {
+        padding-left: 100px;
+    }
+    .services-h1 {
+        position: relative;
+        font-size: 60px;
+        top: 200px;
+    }
+    .services-img {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .service-features {
+      width: 300px;
+      height: 80px;
+    }
+    .services-h1 {
+        font-size: 60px;
+        position: relative;
+        top: 0px;
+
+    }
+    .services-img {
+        position: relative;
+        top: -200px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .service-features {
+    width: 400px;
+    height: 100px;
+    font-size: 17px;
+    img {
+      height: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .service-features {
+    width: 280px;
+    height: 80px;
+    font-size: 12px;
+      img {
+        height: 80px;
+      }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .services-img {
+    margin-top: -80px;
+  }
+  .services-h1 {
+    top: 250px;
+    font-size: 80px;
+  }
+}

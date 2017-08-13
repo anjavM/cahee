@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+    .header-h1 {
+        font-size: 30px;
+    }
+    
+    .header-p {
+        font-size: 17px;
+    }
+    
+    .header-button {
+        margin-top: 10px;
+        font-size: 17px;
+    }   
+    
+    .header-text {
+        padding-top: 10px;
+    }
+}
+
+header {
+    background-color: $header;
+    background: url('/assets/fresh-life.png') center / cover no-repeat;
+}
+
+.header-text {
+    padding-top: 200px;
+}
+
+.header-h1 {
+    position: relative;
+    padding-top: 50px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.header-p {
+    font-family: 'Raleway';
+    font-size: 17px;
+    line-height: 27px;
+    padding-top: 17px;
+}
+
+.header-button {
+    background-color: #ff6033;
+    color: white;
+    font-family: "Raleway", Arial, sans-serif;
+    padding:  10px 30px 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    -webkit-box-shadow: 10px 10px 34px 0px rgba(230,230,230,1);
+    -moz-box-shadow: 10px 10px 34px 0px rgba(230,230,230,1);
+    box-shadow: 10px 10px 34px 0px rgba(230,230,230,1);   
+}
+
+
+
+.header-scrollicon {
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+
+.img-wrapper {
+    .header-img {
+        transition: 0.5s ease-out;
+        top: 0;
+        &:hover {
+            filter: orange;
+            position: relative;
+            top: -20px;
+        }
+    }
+}
