@@ -24,6 +24,9 @@ header {
 
 .header-text {
     padding-top: 200px;
+    @media screen and (max-width: 599px) {
+      padding-top: 100px;
+    }
 }
 
 .header-h1 {
