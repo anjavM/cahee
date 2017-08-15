@@ -22,12 +22,12 @@
             width: 300px;
         }
     }
-    
+
     .contact-form {
         position: relative;
         top: 50px;
     }
-    
+
     .contact-input {
         height: 50px;
         opacity: 0.5;
@@ -50,11 +50,11 @@
             }
         }
     }
-    
+
     .contact-input::placeholder {
         color: white;
     }
-    
+
     .contact-details {
         position: relative;
         top: 50px;
@@ -68,11 +68,10 @@
             font-size: 20px;
         }
     }
-    
+
     textarea.contact-input {
         height: 200px;
         resize: vertical;
         overflow: hidden;
     }
 }
-
