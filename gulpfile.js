@@ -24,18 +24,6 @@ gulp.task('sass', function (){
         .pipe(browserSync.reload({stream:true}));
 });
 
-//gulp.task('babel', function() {
-//  var JSpath = 'js/app.js';
-//  var bundler = browserify(JSPath)
-//                .transform('babelify', {
-//                  presets : [ 'es2015' ]
-//});
-
-//bundler.bundle().on('error', function(err) {
-//    console.error('[browserify error]', err.message);
-//  }).pipe(source('bundle.js'))
-//    .pipe(gulp.dest('js'));
-//});
 
 gulp.task('default', ['sass'], function() {
     browserSync.init({

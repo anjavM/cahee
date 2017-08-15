@@ -3,8 +3,9 @@ $(function(){
            $(this).css('background', 'url(' + $(this).attr ('data-background') + ') center / cover no-repeat');
        });
 
+       $('.main-nav_hamburger').click(function() {
+         var xsMenu = $('.navbar-xs');
 
-    $('.fa-bars').click(function () {
-         console.log('hi');
-    })
+         xsMenu.toggle();
+       });
 });
