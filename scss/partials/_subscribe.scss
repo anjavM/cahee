@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: url('../../assets/subscribe.png') center / cover no-repeat;
+  background: url('../assets/subscribe.png') center / cover no-repeat;
   padding: 100px 0 120px 0;
     @media screen and (max-width: 580px) {
         background-size: contain;
@@ -18,7 +18,7 @@
             font-size: 30px;
         }
     }
-    
+
     .subscribe-p {
         font-size: 17px;
         width: 530px;
@@ -28,7 +28,7 @@
             width: 80%
         }
     }
-    
+
     .subscribe-btn {
         background-color: #96b92c;
         color: white;
@@ -52,7 +52,7 @@
             margin-top: 5px;
         }
     }
-    
+
     .subscribe-input {
         width: 550px;
         outline: none;
@@ -62,12 +62,11 @@
             padding: 13px;
         }
     }
-    
+
     .subscribe-img {
         z-index: -100;
         position: relative;
     }
 
-    
-}
 
+}
